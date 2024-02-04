@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout with Images</title>
+    <!--<style>
+        .table-cell {
+            width: 33.33%;
+            float: left;
+            text-align: center;
+            background-color: lightblue; /* 각 셀의 배경색 */
+            padding: 10px;
+        }
+        .table-row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .cell-img {
+            display: block;
+            width: 80px; /* 이미지 크기 */
+            height: 80px;
+            margin: 0 auto;
+        }
+        .first-row .table-cell {
+            width: 33.33%; /* 첫 번째 행의 각 셀 너비 */
+        }
+    </style>-->
+</head>
+<body>
+    <div style="margin-left: 300px;">layout7.html</div>
+    <br>
+    <div style="width: 500px; margin: 0 auto;">
+        <div class="table-row first-row"> <!-- 첫 번째 행 -->
+            <div class="table-cell" style="background-color: lightgreen;"><img src="cell1.jpg" alt="Cell 1" class="cell-img"></div>
+            <div class="table-cell" style="background-color: lightyellow;"><img src="cell2.jpg" alt="Cell 2" class="cell-img"></div>
+            <div class="table-cell" style="background-color: lightpink;"><img src="cell3.jpg" alt="Cell 3" class="cell-img"></div>
+        </div>
+        <div class="table-row"> <!-- 이후 행 -->
+            <div class="table-cell" style="background-color: lightcoral;"><img src="cell4.jpg" alt="Cell 4" class="cell-img"></div>
+        </div>
+        <div class="table-row">
+            <div class="table-cell" style="background-color: lightblue;"><img src="cell5.jpg" alt="Cell 5" class="cell-img"></div>
+        </div>
+        <!-- 필요한 만큼 행과 셀 추가 -->
+    </div>
+</body>
+</html>

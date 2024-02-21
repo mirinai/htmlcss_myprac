@@ -1,0 +1,18 @@
+h3{
+    border-left: solid 5px green;
+    padding-left: 15px;
+}
+ul{
+    border: solid 1px gray;
+    padding: 20px 30px 30px 30px;
+    background-color: #737373;
+
+    border-radius: 20px;
+
+
+
+}
+li{
+    margin-top: 10px;
+    line-height: 30px;
+}

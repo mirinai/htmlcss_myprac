@@ -1,0 +1,9 @@
+*{
+    color: green;
+    margin: 0;
+    padding: 0;/*초기화*/
+    /*  
+    * : 전체셀렉터
+    HTML 문서 안의 모든 HTNL 엘레멘트들을 고를 때 쓰인다.
+    */
+}

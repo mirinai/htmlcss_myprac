@@ -1,0 +1,17 @@
+img, p, h1, h4, h2{
+    width:700px;
+}
+h1, h4 {
+    text-align: center;
+}
+h2 {
+    border-bottom: solid 3px black;
+    padding-bottom: 8px;
+}
+p {
+    font-size: 14px;
+    margin-top: 29px;
+}
+li{
+    margin:auto;
+}
